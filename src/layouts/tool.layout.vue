@@ -78,7 +78,7 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
   box-sizing: border-box;
 
   .tool-header {
-    padding: 40px 0;
+    padding: 10px 0;
     width: 100%;
 
     .n-h1 {
