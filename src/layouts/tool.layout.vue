@@ -68,12 +68,13 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
   gap: 16px;
 
   ::v-deep(& > *) {
-    flex: 0 1 600px;
+    /* flex: 0 1 600px; */
+    flex: 1
   }
 }
 
 .tool-layout {
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 
@@ -90,7 +91,7 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
     }
 
     .separator {
-      width: 200px;
+      width: 300px;
       height: 2px;
       background: rgb(161, 161, 161);
       opacity: 0.2;
